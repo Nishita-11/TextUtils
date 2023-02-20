@@ -21,26 +21,7 @@ export default function Navbar(props) {
           </li>
         </ul>
 
-        {/* <div className="form-check  mx-3">
-          <input className="form-check-input" onClick={props.lightMode} type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-          <label className="form-check-label" htmlFor="flexRadioDefault1" style={{color: props.mode==='dark'?'white':'black'}}>
-            Light mode
-          </label>
-        </div>
-
-        <div className="form-check  mx-3">
-          <input className="form-check-input" onClick={props.greenMode} type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-          <label className="form-check-label" htmlFor="flexRadioDefault1" style={{color: props.mode==='dark'?'white':'black'}}>
-            Enable green mode
-          </label>
-        </div>
-
-        <div className="form-check mx-3">
-          <input className="form-check-input" onClick={props.blueMode} type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-          <label className="form-check-label" htmlFor="flexRadioDefault1" style={{color: props.mode==='dark'?'white':'black'}}>
-          Enable blue mode
-          </label>
-        </div> */}
+        
 
       <p>
         <a className="btn btn-primary mx-2" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -79,10 +60,7 @@ export default function Navbar(props) {
         
   
 
-        {/* <div className={`form-check form-switch text-${props.mode==='light'?'dark':'light'}`}>
-          <input className="form-check-input" onClick={props.toggleMode} type="checkbox" id="flexSwitchCheckDefault" />
-          <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable blue mode</label>
-        </div> */}
+       
 
       </div>
     </div>
